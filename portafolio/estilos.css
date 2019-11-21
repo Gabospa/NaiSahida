@@ -1,0 +1,32 @@
+
+header{
+  background-color:#ffeaa7;
+  text-decoration: none;
+}
+body{
+  font-family: 'Manjari',serif;
+  background-color: #e17055;
+}
+
+a {
+  text-decoration: none;
+}
+
+.lema{
+  height: 350px;
+  font-size: 35px;
+  font-family: 'Sacramento',serif;
+  padding-left: 75px;
+  padding-top: 75px;
+  background-color: #ffeaa7;
+  background-image: url('header 2.jpg');
+  background-size: 675px 400px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.project1{
+  border: 5px dashed ;
+  border-radius: 10px;
+  border-color:green;
+}
