@@ -1,32 +1,137 @@
 
 header{
   background-color:#ffeaa7;
+  color: white;
   text-decoration: none;
-}
-body{
-  font-family: 'Manjari',serif;
-  background-color: #e17055;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
 }
 
-a {
+.header a {
+  color: white;
   text-decoration: none;
+}
+
+.menu {
+  height: inherit;
+}
+.header ol {
+  display: flex;
+  height: inherit;
+}
+
+.header ol li {
+  height: inherit;
+}
+
+.header a {
+  display:flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 10px;
+}
+
+ol,
+ul{
+  margin: 0;
+  padding:0;
+  list-style: none;
+  }
+
+figure{
+  margin:0;
+}
+
+body{
+  font-family: 'Manjari',serif;
+  background-color: #ffeaa7;
+  margin:0;
+}
+
+/* se utiliza . para selector de clase y # para selector de id */
+
+h1{
+  line-height: 1.5em;
+  font-size: 55px;
+  /* font-weight: 900; no aplica porque no se importo  */
+  /* font-style: italic; */
+  letter-spacing: -.2px;
+  /* text-transform:none;
+  text-decoration: none; */
+  font-family: 'Sacramento',serif;
+  margin: 0px;
+}
+
+h1 strong{
+  color:brown;
 }
 
 .lema{
   height: 350px;
-  font-size: 35px;
-  font-family: 'Sacramento',serif;
+  background-image: url('./header 2.jpg');
+  background-size: 500px 400px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
   padding-left: 75px;
   padding-top: 75px;
-  background-color: #ffeaa7;
-  background-image: url('header 2.jpg');
-  background-size: 675px 400px;
-  background-repeat: no-repeat;
-  background-position: right;
+  background-color: #d3ffbd;
+  display: flex;
+  align-items: center;
+
 }
 
-.project1{
-  border: 5px dashed ;
-  border-radius: 10px;
-  border-color:green;
+.projectDetails{
+  width: 500px;
+  height: 50px;
 }
+
+.project1ImageContainer{
+  width: 500px;
+}
+
+.projectArticle{
+/* border-top: 10px solid red; */
+  border: 1px solid ;
+  border-radius: 10px;
+  border-color:gray;
+  margin: 10px;
+  margin-bottom: 15px;
+  /* margin-right: 0%;
+  margin-left */
+  padding: 20px;
+  background-color: white;
+  display:flex;
+}
+
+.flexbox{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+
+.box{
+  width: 50px;
+  height: 50px;
+  border: 1px solid red;
+  flex-shrink:0;
+  margin: 10px;
+}
+
+.footer {
+  background-color: #527807;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer a{
+  color:white;
+}
+
+/* .footer img{
+  vertical-align: middle;
+} */

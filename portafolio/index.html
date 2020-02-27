@@ -14,56 +14,72 @@
       }
     </style>-->
   <body>
-    <header>
-      <div>
-        <figure>
-          <img src="Log5.png" alt="Logo de Nai Sahida" width="300" height="80">
-        </figure>
-      </div class="header1">
-      <nav>
+    <header class="header">
+      <figure class="logo">
+          <img src="Log5.png" alt="Logo de Nai Sahida" width="300px" height="60px">
+      </figure>
+      <nav class="menu">
         <ol>
           <li>
-            <a href="#contactos">Contacto</a>
-          </li>
-          <li>
-           <a href="#Acerca">Acerca</a>
+           <a class="link" href="#Acerca">Acerca</a>
          </li>
+          <li>
+            <a class="link" href="#contactos">Contacto</a>
+          </li>
         </ol>
       </nav>
     </header>
-<section id="main" class="lema">
-  <h1><strong>Nai Sahida</strong>, <br> De mis manos con amor</h1>
-  <!--  <img src="header 2.jpg" width="500" height="320" alt="Logo Completo" >-->
-</section>
-<section id="manillas" class="project1">
-  <h2>Catalogo</h2>
-    <article>
-      <h3>Manillas y Pulseras</h3>
-      <!--<h5>Todo lo que imagines en Manillas y Pulseras a tu gusto</h6>
-      <p><small>Desde 2018</small></p>-->
-      <p>Todo lo que imaginas en Manillas, sueña con nosotros.</p>
-      <img src="manillas1.jpg" width="500" height="300" alt="Foto pulseras"></a>
-    </article>
-</section>
-<section id="miyuki" class="project2">
-  <h3>Miyuki</h3>
-  <p>Un mundo de Pines, Aretes, Peyote y diseños a tu estilo.</p>
-  <img src="miyuki1.jpg" width="500" height="300" alt="Foto miyuki"></a>
-</section>
-<section id="Acerca">
-    <h3>Hola! mi nombre es <strong>Karina</strong> y soy la creadora de Nai Sahida</h3>
-    <img src="karina1.jpeg" width="300" height="300" alt="Foto Nai"></a>
-    <p> Este es un sueño para mi hijo y para mi, confiar en que puedes disfrutar tu trabajo y tener un impacto.<br>
-      Apenas iniciamos pero pronto vendran nuevas ideas para unir a muchos mas en este sueño.<br>
-      Disfruta tu visita y preguntame lo que quieras, Bienvenido!</p>
-<section id="contactos">
-    <h3>Contactanos</h3>
-    <form action="/subscripcion/">
-        <label for="email">Conoce mas</label>
-        <input type="text" name="" placeholder="Dejanos tu Email" id="email">
-        <input type="submit" name="button" value="Enviar">
-    </form>
-</section>
-<footer> <small>Un sueño para Oggi, <br> Creditos: Gabospa </small></footer>
+
+    <section id="main" class="lema">
+        <h1><strong>Nai Sahida</strong>, <br> De mis manos con amor</h1>
+        <!-- <img src="header 2.jpg" width="500" height="320" alt="Logo Completo" > -->
+    </section>
+      <section class="project1">
+        <h2>Catalogo</h2>
+        <article class="projectArticle">
+          <div class="projectDetails">
+            <h3 class="projectArticleTittle">Manillas y Pulseras</h3>
+            <p class="projectArticleText">Todo lo que imaginas en Manillas,
+              sueña con nosotros.</p>
+          </div>
+            <figure class="project1ImageContainer">
+              <img src="manillas1.jpg" width="500" height="300" alt="Foto pulseras"></a>
+            </figure>
+            <!-- <a class="projectUrl" href="catalogo.html"></a> -->
+        </article>
+      </section>
+      <section class="project2">
+        <article class="projectArticle">
+          <div class="projectDetails">
+            <h3>Miyuki</h3>
+            <p>Un mundo de Pines, Aretes, Peyote y diseños a tu estilo.</p>
+          </div>
+          <figure class="project1ImageContainer">
+            <img src="miyuki1.jpg" width="500" height="300" alt="Foto miyuki"></a>
+          </figure>
+        </article>
+      </section>
+      <section id="Acerca">
+        <h3>Hola! mi nombre es <strong>Karina</strong> y soy la creadora de Nai Sahida</h3>
+        <img src="karina1.jpeg" width="300" height="300" alt="Foto Nai"></a>
+        <p> Este es un sueño para mi hijo y para mi, confiar en que puedes disfrutar tu trabajo y tener un impacto.<br>
+          Apenas iniciamos pero pronto vendran nuevas ideas para unir a muchos mas en este sueño.<br>
+          Disfruta tu visita y preguntame lo que quieras, Bienvenido!</p>
+      <section id="contactos">
+        <h3>Contactanos</h3>
+          <form action="/subscripcion/" class="formEmail">
+            <label for="email">Cuentame sobre tu diseño? </br></label>
+            <input type="text" name="" placeholder="Dejanos tu Email" id="email">
+            <input type="submit" name="button" value="Enviar">
+          </form>
+      </section>
+      <footer class="footer">
+        <div class="">
+          <p>Un sueño para Oggi </p>
+        </div>
+        <div class="">
+          <p>Credito por <a href="https://twitter.com/gabospa89">@gabospa89</a> </p>
+        </div>
+      </footer>
   </body>
 </html>
