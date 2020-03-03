@@ -15,51 +15,59 @@
     </style>-->
   <body>
     <header class="header">
-      <figure class="logo">
+      <div class="container">
+        <figure class="logo">
           <img src="Log5.png" alt="Logo de Nai Sahida" width="300px" height="60px">
-      </figure>
-      <nav class="menu">
-        <ol>
-          <li>
-           <a class="link" href="#Acerca">Acerca</a>
-         </li>
-          <li>
-            <a class="link" href="#contactos">Contacto</a>
-          </li>
-        </ol>
-      </nav>
+        </figure>
+        <nav class="menu">
+          <ol>
+            <li>
+              <a class="link" href="#AcercaI">Acerca</a>
+            </li>
+            <li>
+              <a class="link" href="#contactosI">Contacto</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
     </header>
-
     <section id="main" class="lema">
+      <div class="container">
         <h1><strong>Nai Sahida</strong>, <br> De mis manos con amor</h1>
-        <!-- <img src="header 2.jpg" width="500" height="320" alt="Logo Completo" > -->
+        <img class="lemaImage" src="header 2.jpg" width="500" height="320" alt="Logo Completo" >
+      </div>
     </section>
     <section class="project1">
+      <div class
+      ="container">
         <h2>Catalogo</h2>
         <article class="projectArticle">
           <div class="projectDetails">
             <h3 class="projectArticleTittle">Manillas y Pulseras</h3>
             <p class="projectArticleText">Todo lo que imaginas en Manillas,
               sueña con nosotros.</p>
-          </div>
+            </div>
             <figure class="project1ImageContainer">
               <img src="manillas1.jpg" width="500" height="300" alt="Foto pulseras"></a>
             </figure>
             <!-- <a class="projectUrl" href="catalogo.html"></a> -->
-        </article>
-        <article class="projectArticle">
-          <div class="projectDetails">
-            <h3 class="projectArticleTittle">Miyuki</h3>
-            <p class="projectArticleText">Un mundo de Pines, Aretes, Peyote y diseños a tu estilo.</p>
-          </div>
-          <figure class="project1ImageContainer">
-            <img src="miyuki1.jpg" width="500" height="300" alt="Foto miyuki"></a>
-          </figure>
-        </article>
+          </article>
+          <article class="projectArticle">
+            <div class="projectDetails">
+              <h3 class="projectArticleTittle">Miyuki</h3>
+              <p class="projectArticleText">Un mundo de Pines, Aretes, Peyote y diseños a tu estilo.</p>
+            </div>
+            <figure class="project1ImageContainer">
+              <img src="miyuki1.jpg" width="500" height="300" alt="Foto miyuki"></a>
+            </figure>
+          </article>
+      </div>
     </section>
-
-    <h3>Enterate de las proximas novedades y eventos</h3>
+    <div class="container">
+      <h3 id="novedades">Enterate de las proximas novedades y eventos</h3>
+    </div>
     <section class="Noticias">
+      <div class="container">
         <article class="noticiasArticle">
           <figure class="noticiasImageContanier">
             <img src="megafono1.jpg" width="300" height="300" alt="Foto Nai"></a>
@@ -92,36 +100,47 @@
             <p> Aretes para toda ocasion</p>
           </div>
         </article>
+      </div>
     </section>
-
-      <section class="Acerca">
-        <h3>Hola! mi nombre es <strong>Karina</strong> y soy la creadora de Nai Sahida</h3>
+    <section id="AcercaI" class="Acerca">
+      <div class="container">
         <article class="acercaArticle">
-          <figure class="acercaImageContanier">
-            <img src="karina1.jpeg" width="300" height="300" alt="Foto Nai"></a>
-          </figure>
           <div class="acercaDetalles">
+            <h3 class="acercaTitulo">Hola! mi nombre es <strong>Karina</strong> y soy la creadora de Nai Sahida</h3>
             <p> Este es un sueño para mi hijo y para mi, confiar en que puedes disfrutar tu trabajo y tener un impacto.<br>
-              Apenas iniciamos pero pronto vendran nuevas ideas para unir a muchos mas en este sueño.<br>
-              Disfruta tu visita y preguntame lo que quieras, Bienvenido!</p>
-          </div>
+              Apenas iniciamos pero pronto vendran nuevas ideas para unir a muchos mas en este sueño.</p>
+              <p>Disfruta tu visita y preguntame lo que quieras, Bienvenido!</p>
+            </div>
+            <figure class="acercaImageContanier">
+              <img src="karina1.jpeg" width="300" height="300" alt="Foto Nai"></a>
+            </figure>
         </article>
-      </section>
-      <section id="contactos">
-        <h3>Contactanos</h3>
-          <form action="/subscripcion/" class="formEmail">
-            <label for="email">Cuentame sobre tu diseño? </br></label>
-            <input type="text" name="" placeholder="Dejanos tu Email" id="email">
-            <input type="submit" name="button" value="Enviar">
-          </form>
-      </section>
-      <footer class="footer">
+      </div>
+    </section>
+    <section id="contactosI" class="contactos">
+      <div class="container">
+        <form action="/subscripcion/" class="formEmail">
+          <h3>Contactanos</h3>
+          <label for="email">Cuentame sobre tu diseño? </br></label>
+          <input type="text" name="" placeholder="Dejanos tu Email" id="email">
+          <button>Enviar</button>
+          <!-- <input type="submit" name="button" value="Enviar"> -->
+        </form>
+        <div class="social">
+          <a href="#" class="social-link twitter"></a>
+          <a href="https://instagram.com/naisahidacol" class="social-link instagram"></a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
         <div class="">
           <p>Un sueño para Oggi </p>
         </div>
         <div class="">
           <p>Credito por <a href="https://twitter.com/gabospa89">@gabospa89</a> </p>
         </div>
-      </footer>
+     </div>
+    </footer>
   </body>
 </html>
