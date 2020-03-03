@@ -7,6 +7,7 @@ header{
   justify-content: space-between;
   align-items: center;
   height: 70px;
+  padding: 0 10px;
 }
 
 .header a {
@@ -130,11 +131,31 @@ h2 {
   justify-content: space-between;
 }
 
+/* para id #Acerca{
+  margin:10px;
+ */
+.Noticias{
+  display:flex;
+}
+
+.noticiasArticle{
+  margin:10px;
+  border: 1px solid red;
+  width:480px;
+}
+
+.Noticias img {
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
+}
+
 .flexbox{
   display: flex;
   flex-wrap:wrap;
   justify-content:space-between;
 }
+
 
 .box{
   width: 50px;
